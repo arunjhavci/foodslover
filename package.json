@@ -1,0 +1,44 @@
+{
+  "name": "foodlover",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "json-server -p 3001 --watch ./app/database/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.16.0",
+    "@aws-amplify/backend-cli": "^1.7.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "aws-cdk": "^2",
+    "aws-cdk-lib": "^2.189.1",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.14.4",
+    "@aws-amplify/adapter-nextjs": "^1.2.32",
+    "@aws-amplify/storage": "^6.6.12",
+    "@aws-amplify/ui-react": "^6.5.2",
+    "@aws-amplify/ui-react-storage": "^3.3.8",
+    "@aws-sdk/s3-request-presigner": "^3.705.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "lru-cache": "^11.0.2",
+    "next": "^14.2.20",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1"
+  }
+}
